@@ -46,3 +46,4 @@ obj-$(CONFIG_THERMAL_MONITOR)	+= msm_thermal.o msm_thermal-dev.o
 obj-$(CONFIG_LIMITS_MONITOR)	+= lmh_interface.o
 obj-$(CONFIG_LIMITS_LITE_HW)	+= lmh_lite.o
 obj-$(CONFIG_LGE_PM_THERMAL_VTS)	+= virtual_temp_sensor.o
+obj-$(CONFIG_THERMAL_MONITOR_SIMPLE)	+= msm_thermal_simple.o

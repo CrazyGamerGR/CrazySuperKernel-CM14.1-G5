@@ -19,5 +19,5 @@ make -C $(pwd) O=output
 make -C $(pwd) O=output cyanogenmod_h850_defconfig
 make -C $(pwd) O=output
 ##########################################
-cp outputh830/arch/arm/boot/Image $(pwd)/arch/arm/boot/zImage
-cp outputh850/arch/arm/boot/Image $(pwd)/arch/arm/boot/zImage
+cp outputh830/arch/arm64/boot/Image $(pwd)/arch/arm64/boot/zImage
+cp outputh850/arch/arm64/boot/Image $(pwd)/arch/arm64/boot/zImage

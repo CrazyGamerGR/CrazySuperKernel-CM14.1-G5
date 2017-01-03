@@ -282,6 +282,14 @@ config CPU_BOOST
 	  - Migration of important threads from one CPU to another.
 
 	  If in doubt, say N.
+
+
+config CPU_INPUT_BOOST
+	bool "CPU Input Boost"
+	help
+	  Boosts the CPU on touchscreen and touchpad input. Boost frequencies and
+	  durations are calculated automatically.
+
 config LGE_PM_TRITON
 	tristate "Cpu Freq Helper Driver"
 	depends on CPU_FREQ_GOV_INTERACTIVE

@@ -8,7 +8,7 @@
 #   		\_______|    |__|\___|
 ##########################################
 export ARCH=arm64
-export CROSS_COMPILE=/home/francesco/aarch64-linux-android-4.9-kernel/bin/aarch64-linux-android-
+export CROSS_COMPILE=/home/francesco/aarch64-linux-android-6.0-kernel/bin/aarch64-linux-android-
 ##########################################
 mkdir outputh830
 mkdir outputh850

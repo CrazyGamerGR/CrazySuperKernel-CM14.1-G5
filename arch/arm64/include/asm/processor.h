@@ -173,11 +173,8 @@ static inline void spin_lock_prefetch(const void *x)
 
 #endif
 
-<<<<<<< HEAD
 void cpu_enable_pan(void);
-=======
 
 #include <asm-generic/processor.h>
->>>>>>> ace71a3... ARM64: defining macros to optimize power usage
 
 #endif /* __ASM_PROCESSOR_H */
